@@ -127,11 +127,12 @@ width:100%;
  }
 
  #new-pic{
-  background-image:url(./assets/candies\ 4.jpg);
+  background-image:url(./assets/candy\ 9.jpg);
   height: 25vh;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 150px;
+  
 
  }
 
@@ -145,26 +146,70 @@ width:100%;
 
  #body-overlay {
   display:flex;
-  flex-direction:row;
-  column-gap: 2rem;
-  background-color:blue;
-  margin-top:30px;
-  max-width:900px ;
-  padding-left: 50px;
-  margin-left: 170px;
-  height: 80%;
-  margin-bottom: 30px;
+  flex-direction: row;
   justify-content: space-evenly;
-   list-style-type: none;
-   font-size: 40px;
-
+ /* column-gap: 2rem;*/
+  background-color:rgb(165, 116, 165);
+  margin-top:30px;
+  max-width:80% ;
+ /* padding-left: 50px;*/
+  margin-left:150px;
+  height: 140px;
+  margin-bottom: 70px;
+  
+  padding-top: 20px;
+  border: 2px;
+  box-shadow:1px  rgb(172, 165, 165);
+  
+  
  }
 
- #body-overlay p{
-  font: bold;
-  
+#body-overlay p {
+  font-size:50px;
+}
+   #body-overlay h5{
+
+  font-size: 20px;
+  margin-top: 10px;
+  font-style: italic;
+   }
+
+   section h6{
+
+margin-top: 200px;
+margin-left: 500px;
+font-size: 40px;
+   }
+
+   .para{
+    margin-left: 300px;
+    margin-top: 20px;
+   }
+
+   .para1{
+    margin-left: 500px;
+   }
+
+  .product{
+    display:grid;
+    grid-template-columns: 3fr,3fr;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    max-width: 80%;
+    background-color: rgb(207, 178, 235);
+    
+
+  }
+
+  .product div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(73, 60, 85);
+
+  }
+   
+
+
  
-
-  
-
- }
+ 
